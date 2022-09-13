@@ -1,0 +1,30 @@
+{
+  "name": "landing-portfolio-backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastyNastyAlexseeva/Landing-Portfolio-Backend.git"
+  },
+  "author": "Nastya Ascheulova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NastyNastyAlexseeva/Landing-Portfolio-Backend/issues"
+  },
+  "homepage": "https://github.com/NastyNastyAlexseeva/Landing-Portfolio-Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mariadb": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
